@@ -11,7 +11,8 @@ def add_element_to_end_of_array(array = ["wow", "I", "am", "really", "learning"]
   
 end
 
-def add_element_to_start_of_array(array, element)
+def add_element_to_start_of_array(array = ["wow", "I", "am", "really", "learning"], element = ["arrays"])
+  array.unshift(element)
   
 end
 
