@@ -28,10 +28,10 @@ def retrieve_element_from_index(array = ["wow", "I", "am", "really", "learning",
   array[2] 
 end
 
-def retrieve_first_element_from_array(array = ["wow", "I", "am", "really", "learning", "arrays"], [0])
-  array[0]
+def retrieve_first_element_from_array(array = ["wow", "I", "am", "really", "learning", "arrays"])
+  array.first
 end
 
-def retrieve_last_element_from_array(array = ["wow", "I", "am", "really", "learning", "arrays"], [5])
-  array[5]
+def retrieve_last_element_from_array(array = ["wow", "I", "am", "really", "learning", "arrays"])
+  array.last
 end
