@@ -20,8 +20,8 @@ def remove_element_from_end_of_array(array = ["wow", "I", "am", "really", "learn
  element = array.pop
 end
 
-def remove_element_from_start_of_array(array = [ "I", "am", "really", "learning", "arrays"], element = ["wow"])
-  array.shift(element)
+def remove_element_from_start_of_array(array = ["wow", "I", "am", "really", "learning", "arrays"], element = ["wow"])
+ element = array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
